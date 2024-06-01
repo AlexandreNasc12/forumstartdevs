@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E9C6396-8F15-4668-9713-26EE77AA1856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSD.Domain", "src\FSD.Domain\FSD.Domain.csproj", "{80735C13-21E2-4932-90B8-56C5414B4FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSD.Core", "src\FSD.Core\FSD.Core.csproj", "{867E01EC-C95D-4005-843F-D9AEF1796DDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80735C13-21E2-4932-90B8-56C5414B4FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80735C13-21E2-4932-90B8-56C5414B4FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80735C13-21E2-4932-90B8-56C5414B4FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80735C13-21E2-4932-90B8-56C5414B4FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867E01EC-C95D-4005-843F-D9AEF1796DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867E01EC-C95D-4005-843F-D9AEF1796DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867E01EC-C95D-4005-843F-D9AEF1796DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867E01EC-C95D-4005-843F-D9AEF1796DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80735C13-21E2-4932-90B8-56C5414B4FAC} = {5E9C6396-8F15-4668-9713-26EE77AA1856}
+		{867E01EC-C95D-4005-843F-D9AEF1796DDE} = {5E9C6396-8F15-4668-9713-26EE77AA1856}
+	EndGlobalSection
+EndGlobal
