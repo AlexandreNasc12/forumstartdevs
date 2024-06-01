@@ -8,6 +8,7 @@ public class Usuario : Entity, IAggregateRoot
     public Cpf Cpf { get; private set; }
     public DateTime DataDeNascimento { get; private set; }
     public string Foto { get; private set; }
+    public Login Login { get; private set; }
 
     //EF
     private HashSet<Endereco> _Enderecos;
