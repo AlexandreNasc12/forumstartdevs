@@ -45,5 +45,4 @@ public class Usuario : Entity, IAggregateRoot
     public void AtribuirDataDeNascimento(DateTime dataNascimento) => DataDeNascimento = dataNascimento;
 
     public void AtribuirFoto(string foto) => Foto = foto;
-
 }
