@@ -32,13 +32,16 @@ public class Usuario : Entity, IAggregateRoot
         }
     }
 
-    protected Usuario() { }
+    private Usuario() { 
+        _Enderecos = new HashSet<Endereco>();
+    }
 
-    public Usuario(string nome, Cpf cpf, string foto)
+    public Usuario(string nome, Cpf cpf, string foto, DateTime dataDeNascimento) : this()
     {
         Nome = nome;
         Cpf = cpf;
         Foto = foto;
+        DataDeNascimento = dataDeNascimento;
     }
 
     public void AtribuirNome(string nome) => Nome = nome;
@@ -46,4 +49,6 @@ public class Usuario : Entity, IAggregateRoot
     public void AtribuirDataDeNascimento(DateTime dataNascimento) => DataDeNascimento = dataNascimento;
 
     public void AtribuirFoto(string foto) => Foto = foto;
+
+    public void Adicionar(Endereco endereco) => _Enderecos.Add(endereco);
 }
